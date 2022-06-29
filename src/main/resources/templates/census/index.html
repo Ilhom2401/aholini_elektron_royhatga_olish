@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aholini ro'yxatga olish</title>
+    <link rel="stylesheet" href="css/census/style.css" />
+    <link
+      href="//db.onlinewebfonts.com/c/ace51fb0e489a977bed8a67511865c11?family=Averta+CY+W01"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="content">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+              <div>
+                <img
+                  style="width: 100px"
+                  th:src="@{/images/census/logo-perepis.ed4d3d8b.svg}"
+                  alt="img"
+                />
+                <img style="width: 60px"
+                     th:src="@{/images/census/logo.png}"/>
+              </div>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+            <ul class="navbar-nav me-auto w-100 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/about">
+                  <b> Aholini ro'yxatga olish haqida </b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/question">
+                  <b> Savol va javoblar </b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/agreement">
+                  <b> Kelishuv shartlari </b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/doc">
+                  <b> Qo'llanma </b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/communication">
+                  <b> Aloqa </b>
+                </a>
+              </li>
+              <li class="nav-item ms-auto">
+                <a class="nav-link active d-flex align-items-center" href="#">
+                  <img style="width: 30px" th:src="@{/images/census/rus.png}" alt="eng" />
+                  <b class="ms-1"> Ru </b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active d-flex align-items-center" href="#">
+                  <img style="width: 30px" th:src="@{/images/census/eng.png}" alt="eng" />
+                  <b class="ms-1"> Eng </b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active d-flex align-items-center" href="#">
+                  <img style="width: 30px" th:src="@{/images/census/uz.png}" alt="eng" />
+                  <b class="ms-1"> Uz </b>
+                </a>
+              </li>
+            </ul>
+            <!-- </div> -->
+          </div>
+        </nav>
+      </div>
+      <div class="section1">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <h2>
+                AHOLINI RO’YXATGA OLISHDA <span>FAOL ISHTIROK ETING!</span>
+              </h2>
+              <h3>Yangi O’zbekistonning bir qismi bo’l!</h3>
+              <div class="row">
+                <div class="col-9">
+                  <form class="login" method="post" action="/login-user">
+                    <input name="username" class="phone" type="text" placeholder="User Name*">
+                    <input name="password" class="phone" type="password" placeholder="Password*">
+                    <div class="htc__login__btn mt--30">
+                      <button class="btn kirish btn-success p-50" type="submit">Login</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

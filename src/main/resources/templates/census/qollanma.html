@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ma'lumot</title>
+    <link rel="stylesheet" href="/css/census/style.css" />
+    <link
+      href="//db.onlinewebfonts.com/c/ace51fb0e489a977bed8a67511865c11?family=Averta+CY+W01"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="content1">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+              <div>
+                <img
+                  style="width: 100px"
+                  th:src="@{/images/census/logo-perepis.ed4d3d8b.svg}"
+                  alt="img"
+                />
+                <img style="width: 60px"th:src="@{/images/census/logo.png}" alt="img" />
+              </div>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+            <ul class="navbar-nav me-auto w-100 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/about"
+                >
+                  <b> Aholini ro'yxatga olish haqida </b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/question">
+                  <b> Savol va javoblar </b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/agreement">
+                  <b> Kelishuv shartlari </b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/doc">
+                  <b> Qo'llanma </b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/communication">
+                  <b> Aloqa </b>
+                </a>
+              </li>
+              <li class="nav-item ms-auto">
+                <a class="nav-link active d-flex align-items-center" href="#">
+                  <img style="width: 30px" th:src="@{/images/census/rus.png}" alt="eng" />
+                  <b class="ms-1"> Ru </b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active d-flex align-items-center" href="#">
+                  <img style="width: 30px" th:src="@{/images/census/eng.png}" alt="eng" />
+                  <b class="ms-1"> Eng </b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active d-flex align-items-center" href="#">
+                  <img style="width: 30px" th:src="@{/images/census/uz.png}" alt="eng" />
+                  <b class="ms-1"> Uz </b>
+                </a>
+              </li>
+            </ul>
+            <!-- </div> -->
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="qollanma">
+      <div class="container">
+        <h2>TIZIMNI ISHLATISH BO'YICHA QO'LLANMA</h2>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-12 mb-3">
+            <div class="card">
+              <img
+                      th:src="@{/images/census/oneid.svg}" alt="one" />
+              <hr />
+              <h4>Tizimga OneID orqali kirish</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 mb-3">
+            <div class="card">
+              <img th:src="@{/images/census/folder.png}" alt="one" />
+              <hr />
+              <h4>So'rovnomada qatnashish</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 mb-3">
+            <div class="card">
+              <img th:src="@{/images/census/take.png}" alt="take" />
+              <hr />
+              <h4>Shaxsiy ma'lumotlarni o'zgartirish</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 mb-3">
+            <div class="card">
+              <img  th:src="@{/images/census/bell.png}" alt="take" />
+              <hr />
+              <h4>Xabarlar sahifasi bilan ishlash</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 mb-3">
+            <div class="card">
+              <img  th:src="@{/images/census/glass.png}" alt="take" />
+              <hr />
+              <h4>Maxsus imkoniyatlardan foydalanish</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 mb-3">
+            <div class="card">
+              <img  th:src="@{/images/census/world.png}" alt="take" />
+              <hr />
+              <h4>Tizimda tilni o'zgartirish</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img th:src="@{/images/census/logo-perepis.ed4d3d8b.svg}" alt="" />
+
+          </div>
+          <div class="col">
+            <br /><a href="qollanma.html">Qo'llanma</a> <br /><a
+              href="/doc"
+              >Savol va javoblar</a>
+            <br /><a href="kelishuv.html">Kelishuv shartlari</a> <br /><a
+              href="/about"
+              >Aholini ro'yxatga olish haqida</a
+            >
+          </div>
+          <div class="col">
+            <div class="d-flex mb-2">
+              <div>
+                <img
+                  class="me-2"
+                  style="width: 25px"
+                  th:src="@{/images/census/1/email.png}"
+                  alt=""
+                />
+                info@stat.uz
+              </div>
+            </div>
+            <div class="d-flex mb-2">
+              <div class="me-4">
+                <img
+                  class="me-2"
+                  style="width: 25px"
+                  th:src="@{/images/census/1/telephone-call.png}" />
+                  alt=""
+                />
+                +998 (71) 202-8175
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex align-items-start">
+                <div>
+                  <img
+                    class="me-2"
+                    style="width: 25px"
+                    th:src="@{/images/census/1/location.png}"
+                    alt=""
+                  />
+                </div>
+                <p>100170, Toshkent sh., Mustаqillik shoh ko‘chаsi, 63 - uy</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <button class="btn-block btn myBtn">Bog'lanish</button>
+            <h4>+998 (71) 202-81-80</h4>
+          </div>
+          <div class="col text-center">
+            <h6>Biz ijtimoiy tarmoqlardamiz</h6>
+            <div class="d-flex align-items-center justify-content-between my-4">
+              <img style="width: 40px"  th:src="@{/images/census/1/facebook.svg}"  alt="" />
+              <img style="width: 40px"  th:src="@{/images/census/1/instagram.svg}" alt="" />
+              <img style="width: 40px"  th:src="@{/images/census/1/telegram.svg}" alt="" />
+            </div>
+            <h6>Aholini ro’yxatga olish 2023 © 2021.</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

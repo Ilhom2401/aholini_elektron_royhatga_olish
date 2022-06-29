@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo-perepis.ed4d3d8b.svg" type="image/x-icon">
+    <title>Aholini ro'yxatga olish</title>
+    <link rel="stylesheet" href="/css/census/style.css" />
+    <link
+      href="//db.onlinewebfonts.com/c/ace51fb0e489a977bed8a67511865c11?family=Averta+CY+W01"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <div>
+              <img
+                style="width: 100px"
+                th:src="@{/images/census/logo-perepis.ed4d3d8b.svg}"
+                alt="img"
+              />
+ <img style="width: 60px"th:src="@{/images/census/logo.png}" alt="img" />
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+          <ul class="navbar-nav me-auto w-100 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/about">
+                <b> Aholini ro'yxatga olish haqida </b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/question">
+                <b> Savol va javoblar </b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/agreement">
+                <b> Kelishuv shartlari </b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/doc">
+                <b> Qo'llanma </b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/communication">
+                <b> Aloqa </b>
+              </a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="nav-link active d-flex align-items-center" href="#">
+                <img style="width: 30px" th:src="@{/images/census/rus.png}" alt="eng" />
+                <b class="ms-1"> Ru </b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active d-flex align-items-center" href="#">
+                <img style="width: 30px" th:src="@{/images/census/eng.png}" alt="eng" />
+                <b class="ms-1"> Eng </b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active d-flex align-items-center" href="#">
+                <img style="width: 30px" th:src="@{/images/census/uz.png}" alt="eng" />
+                <b class="ms-1"> Uz </b>
+              </a>
+            </li>
+          </ul>
+          <!-- </div> -->
+        </div>
+      </nav>
+    </div>
+    <div class="section2 container">
+      <h1 class="text-center">AHOLINI RO'YXATGA OLISH HAQIDA</h1>
+      <p style="text-align: justify">
+        Har qanday davlatning tarixi – bu, birinchi navbatda, unda yashaydigan
+        xalqning tarixi, aholisining soni va tarkibi, uning iqtisodiy va
+        ijtimoiy tavsiflarida o‘z ifodasini topadi. Aholi soni bo‘yicha aniq va
+        yaxlit ma’lumotlar aholini ro‘yxatga olish asosida olinadi. Aholini
+        ro‘yxatga olish yakunlariga qarab o‘tmish va hozirgi davr haqida fikr va
+        mulohazalar yuritish hamda kelajakni prognoz qilish mumkin bo‘ladi.
+        Qator holatlarda aholini ro‘yxatga olish – aholining yoshi, jinsi,
+        milliy tarkibi, ma’lumot darajasi, nikoh holati, bandligi va boshqa
+        tavsiflari haqida ma’lumotlar olishning yagona manbai bo‘lib xizmat
+        qiladi. Aholini ro‘yxatga olish – bu mamlakat aholisining muayyan
+        vaqtdagi “fotosurati”ni olish imkonini beruvchi umumdavlat miqyosidagi
+        keng ko‘lamli tadbir bo‘lib, aholi to‘g‘risidagi ishonchli axborot
+        manbai hisoblanadi.
+      </p>
+      <h3 class="text-center">
+        Aholini ro‘yxatga olish qachondan o‘tkazila boshlangan?
+      </h3>
+      <p style="text-align: justify">
+        Aholini dastlabki ro‘yxatga olish qadimgi Gretsiya, Vavilon,
+        Mesopotamiya, Rim, Xitoy, Yaponiya va Misrda o‘tkazilgan. Lekin, bu
+        aholi ro‘yxatlarining maqsadi aholidan soliq yig‘ish, ya’ni boj olish
+        hamda harbiy maqsad uchun aholi sonini aniqlash bo‘lgan. Shuning uchun
+        ham, bu aholi ro‘yxatlarida asosan erkaklar ro‘yxatga olingan. Chunki, u
+        paytlarda erkaklarning iqtisodiy o‘rni yuqori bo‘lgan, soliq to‘lashda
+        faqat erkaklar, ya’ni oila boshliqlari qatnashgan. Aholini eng birinchi
+        rasmiy ro‘yxatga olish 1790 yilda AQShda, keyinchalik 1800 yilda
+        Shvetsiya va Finlyandiyada, 1801 yilda – Angliya, Daniya, Norvegiya va
+        Fransiyada o‘tkazilgan. Ammo, bu aholi ro‘yxatlari juda oddiy shaklda
+        hamda uzoq muddatga cho‘zilgan. Masalan, birinchi AQShda aholini
+        ro‘yxatga olish ishlari 18 oy davomida olib borilgan. <br />
+        <br />
+        XIX asrga kelib, aholini ro‘yxatga olish juda kengaydi. Qator Evropa
+        mamlakatlarida statistika tashkilotlari tuzildi. Aholini ro‘yxatga olish
+        ilmiy dasturlar asosida olib borilishi yo‘lga qo‘yildi. Xususan,
+        1870-1879 yillarda dunyoning 48 ta, 1890 yillarda esa 57 ta davlatida
+        aholi ro‘yxati o‘tkazilgan. XIX asr oxirida dunyo aholisining 21 foizi
+        ro‘yxatga olingan bo‘lsa, XX asr boshida 54 foiz aholi ro‘yxatdan
+        o‘tkazilgan.
+        <br />
+        <br />
+        Ikkinchi jahon urushidan keyin, aholini ro‘yxatga olish tizimi yanada
+        takomillashtirildi. 1945-1954 yillarda – 151 ta davlatda, 1965-1974
+        yillarda – 179 ta davlatda aholi ro‘yxati o‘tkazilgan. Hozirgi paytda,
+        dunyodagi deyarli barcha davlatlarda aholini ro‘yxatga olish ishlari
+        olib borilmoqda.
+        <br />
+        <br />
+        Respublikamizda demografik jarayonlarning holatini o‘rganishda mamlakat
+        hududida o‘tkazilgan aholi ro‘yxati ma’lumotlari muhim ahamiyat kasb
+        etadi. Manbalarda keltirilishicha, O‘zbekiston hududida dastlabki aholi
+        ro‘yxati 1897 yilda o‘tkazilgan bo‘lib, ushbu ro‘yxat ma’lumotlari XIX
+        asr oxirida O‘zbekistonda mavjud oilalar soni, aholi soni, yoshi va
+        jinsi, etnik tarkibi, tug‘ilish, o‘lim kabi demografik jarayonlar haqida
+        tassavvur hosil qilishga yordam bergan. O‘zbekiston hududida keyinchalik
+        1926, 1939, 1959, 1970, 1979 va 1989 yillarda aholini ro‘yxatga olish
+        ishlari tashkil etilgan.
+        <br />
+        <br />
+        Xalqaro tavsiyalarga ko‘ra, aholini ro‘yxatga olish quyidagi muhim
+        tamoyillarga asoslanadi:
+        <br />
+        <br />
+        1. Aholini ro‘yxatga olishni boshqarishning qat’iy markazlashtirilishi
+        ushbu tadbirni muvaffaqiyatli o‘tkazishning asosiy shartlaridan biridir.
+        <br />
+        <br />
+        2. Aholini ro‘yxatga olishning muntazamligi. BMT tavsiyalariga ko‘ra,
+        aholini ro‘yxatga olish 10 yilda kamida bir marotaba o‘tkazilishi
+        belgilangan.
+        <br />
+        <br />
+        3. Aholini ro‘yxatga olish maxsus tayyorlangan mutaxassislar –
+        hisobchilar tomonidan o‘tkazilishi. Mazkur tadbirni amalga oshirish
+        uchun ko‘p miqdorda maxsus xodimlar yollanadi, ularning tarkibiga
+        ziyolilar, talabalar ham kiritilishi mumkin.
+        <br />
+        <br />
+        4. Aholini ro‘yxatga olishni aniq bir muddatda o‘tkazish. Bu tadbirni
+        amalga oshirishga odatda 10–12 kun talab etiladi. Aholini ro‘yxatga
+        olish bir necha kun davomida o‘tkazilsa ham, ma’lumotlar aniq bir vaqtda
+        – ko‘pincha aholini ro‘yxatga olishning birinchi kunining 0 soatdagi
+        holati bo‘yicha qayd etiladi. Bu aholini ro‘yxatga olishning nozik
+        vaqti, deb ham ataladi. Masalan, chaqaloq aholini ro‘yxatga olish
+        davrida, ammo ana shu aniq muddatdan keyin tug‘ilgan bo‘lsa, u aholi
+        ro‘yxatiga kiritilmaydi. Lekin, kimdir bu aniq nozik muddatda hayot
+        bo‘lib, shundan keyin, ya’ni aholini ro‘yxatga olish davrida vafot etsa,
+        u aholi ro‘yxatiga kiritiladi.
+        <br />
+        <br />
+        5. Aholini ro‘yxatga olishning belgilab qo‘yilgan aniq dasturining
+        mavjudligi va tadbirni unga qat’iy rioya qilgan holda o‘tkazish. Aholini
+        ro‘yxatga olish dasturi – ro‘yxatga olishda muayyan talablarni hisobga
+        olgan holda, aholiga murojaat qilinadigan savollar ro‘yxatini,
+        ma’lumotlarni qayd etish, to‘plash, qayta ishlash, yakuniy ma’lumotlarni
+        e’lon qilish tartiblarini o‘z ichiga oladi.
+        <br />
+        <br />
+        6. Aholining to‘liq qamrab olinishi. Aholini ro‘yxatga olishda kimdir
+        unutib qoldirilishi yoki ikki marta ro‘yxatga olinishi hollari uchrasa
+        ham, mavjud aholining ro‘yxatdan joy olinishini ta’minlash asosiy vazifa
+        hisoblanadi.
+        <br />
+        <br />
+        7. Ma’lumotlarning maxfiyligi va shaxsiylashtirilishi. Aholini ro‘yxatga
+        olishda individual asosda har bir shaxs to‘g‘risidagi yakka ma’lumotlar
+        to‘planadi. Shu bilan birga, respondentlardan olingan ma’lumotlarning
+        nomsizligi kafolatlanadi. Aholini ro‘yxatga olish varaqasidan faqat
+        natijalarni umumlashtirish uchun foydalaniladi.
+        <br />
+        <br />
+        8. Shaxs to‘g‘risidagi ma’lumotlar so‘ralayotgan (respondent)ning
+        javoblari (kichik yoshdagilar uchun – ota-onalari yoki ularning o‘rnini
+        bosadigan shaxslarning) asosida qayd qilinadi va buni hujjat bilan
+        tasdiqlash talab etilmaydi.
+        <br />
+        <br />
+        Ko‘pgina mamlakatlarda aholini ro‘yxatga olish qonun bilan tartibga
+        solinishi mustahkamlab qo‘yilgan.
+        <br />
+        <br />
+        Masalan, Buyuk Britaniyada 1920 yilda Qo‘shma Qirollikda aholini
+        ro‘yxatga olish qonuni qabul qilingan. Mazkur qonunda aholini ro‘yxatga
+        olishning barcha qoidalari, fuqarolar, uy xo‘jaliklari, korxonalar va
+        muassasalarning qaysi toifalari ro‘yxatga olinishi, aholini ro‘yxatga
+        olishni kim o‘tkazishi, so‘rov varaqalari qanday bo‘lishi kerakligi
+        belgilab qo‘yilgan. Bundan tashqari, aholini ro‘yxatga oladigan
+        hisobchilarni yollash qoidalari, ularning xizmat vazifalari hamda
+        aholini ro‘yxatga olish qoidalari ko‘rsatilgan.
+        <br />
+        <br />
+        Buyuk Britaniyada har galgi aholini ro‘yxatga olishdan taxminan bir yil
+        avval bunga doir alohida qonun hujjati qabul qilinadi (bunda albatta
+        1920 yilgi qonun hujjatiga havola qilinadi). Bu qonunda aholini
+        ro‘yxatga olish uslubiga aniqlik kiritiladi, aholini ro‘yxatga olish
+        muddati va buning uchun ajratiladigan mablag‘ miqdori belgilanadi. Buyuk
+        Britaniyada aholini ro‘yxatga olish har o‘n yilda, odatda, aprelь oyida
+        o‘tkaziladi. Bu sananing tanlanishi mamlakatda aholi o‘rtasida ommaviy
+        tadbirlarning o‘tkazilishi uchun ob-havo qulay bo‘lishi bilan
+        izohlanadi.
+        <br />
+        <br />
+        Mamlakatda aholini ro‘yxatga olishga jalb qilinadigan ijtimoiy
+        xodimlarga qat’iy talablar qo‘yiladi. Ular maxsus kurslarda
+        tayyorgarlikdan o‘tishlari shart. Bu xodimlar ro‘yxatga olish
+        boshlanishidan uch kun avval o‘z hududlaridagi aholini so‘rov varaqasini
+        to‘ldirish bilan tanishtirib chiqishlari talab qilinadi.
+        <br />
+        <br />
+        AQShda 1790 yildan buyon, har 10 yilda aholini ro‘yxatga olish o‘tkazib
+        kelinadi. Aholini ro‘yxatga olish mamlakatning ko‘p asrlik qonunchilik
+        asosiga tayanadi.
+        <br />
+        <br />
+        XVIII asrda qabul qilingan AQSh Konstitutsiyasining 1-moddasida
+        “Vakillar palatasidagi joylar va to‘g‘ridan-to‘g‘ri soliqlar Ittifoqqa
+        kiruvchi shtatlar bo‘yicha ularning aholisi soni asosida taqsimlanadi.
+        Aholining amaldagi soni Qo‘shma Shtatlar Kongressi birinchi majlisidan
+        keyin uch yil mobaynida, keyin har o‘n yilda muntazam hisoblab
+        chiqiladi”, deb qayd etilgan.
+        <br />
+        <br />
+        An’anaga ko‘ra, AQShda aholini ro‘yxatga olishga muhim umumdavlat
+        ahamiyatiga ega tadbir sifatida qaraladi, unda barcha aholining ishtirok
+        etishi Amerika demokratiyasi amal etishining zarur sharti, deb
+        baholanadi.
+      </p>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img th:src="@{/images/census/logo-perepis.ed4d3d8b.svg}" alt="" />
+          </div>
+          <div class="col">
+            <br /><a href="qollanma.html">Qo'llanma</a> <br /><a
+              href="savol.html"
+              >Savol va javoblar</a
+            >
+            <br /><a href="kelishuv.html">Kelishuv shartlari</a> <br /><a
+              href="aholi.html"
+              >Aholini ro'yxatga olish haqida</a
+            >
+          </div>
+          <div class="col">
+            <div class="d-flex mb-2">
+              <div>
+                <img
+                  class="me-2"
+                  style="width: 25px"
+                  th:src="@{/images/census/1/email.png}"
+                  alt=""
+                />
+                info@stat.uz
+              </div>
+            </div>
+            <div class="d-flex mb-2">
+              <div class="me-4">
+                <img
+                  class="me-2"
+                  style="width: 25px"
+                  th:src="@{/images/census/1/telephone-call.png}" />
+                +998 (71) 202-8175
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex align-items-start">
+                <div>
+                  <img
+                    class="me-2"
+                    style="width: 25px"
+                    th:src="@{/images/census/1/location.png}"
+                    alt=""
+                  />
+                </div>
+                <p>100170, Toshkent sh., Mustаqillik shoh ko‘chаsi, 63 - uy</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <button class="btn-block btn myBtn">Bog'lanish</button>
+            <h4>+998 (71) 202-81-80</h4>
+          </div>
+          <div class="col text-center">
+            <h6>Biz ijtimoiy tarmoqlardamiz</h6>
+            <div class="d-flex align-items-center justify-content-between my-4">
+              <img style="width: 40px"  th:src="@{/images/census/1/facebook.svg}"  alt="" />
+              <img style="width: 40px"  th:src="@{/images/census/1/instagram.svg}" alt="" />
+              <img style="width: 40px"  th:src="@{/images/census/1/telegram.svg}" alt="" />
+            </div>
+            <h6>Aholini ro’yxatga olish 2023 © 2021.</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,216 @@
+body {
+  background-image: url(../../../templates/census/images/dotted.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content {
+  background-image: url("../../../templates/census/images/rasm.png");
+  height: 100vh;
+  background-size: 70%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.section1 h2 {
+  margin-top: 50px;
+  line-height: 50px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.section1 h2 span {
+  color: #4364cc;
+  margin-top: 10px;
+}
+
+.section1 h3 {
+  font-weight: normal !important;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.section1 .number {
+  width: 100%;
+  display: block;
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 30px 2px rgba(98, 100, 255, 0.195);
+          box-shadow: 0 0 30px 2px rgba(98, 100, 255, 0.195);
+  padding: 15px 16px;
+  margin-bottom: 10px;
+  color: #5555ff;
+  background-color: #fff;
+  margin-bottom: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.section1 .number:hover {
+  background-color: #5555ff;
+  -webkit-box-shadow: 0 0 30px 10px rgba(98, 100, 255, 0.195);
+          box-shadow: 0 0 30px 10px rgba(98, 100, 255, 0.195);
+  color: #fff;
+}
+
+.section1 .phone {
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(85, 85, 255, 0.745);
+}
+
+.section1 .kirish {
+  margin-top: 15px;
+  display: block;
+  width: 100%;
+  color: #fff;
+  /*background-color: rgba(128, 128, 128, 0.647);*/
+  padding: 15px 16px;
+  border-radius: 10px;
+  border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.section1 .kirish:hover {
+  background-color: rgba(69, 69, 69, 0.956);
+}
+
+.section2 {
+  color: #002a44;
+}
+
+.section2 h1 {
+  letter-spacing: -1px;
+  font-weight: bold;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+
+.savol h2 {
+  color: #002a44;
+  font-weight: bold;
+  margin-bottom: 35px;
+  margin-top: 20px;
+}
+
+.savol .wrap {
+  padding: 15px 15px 8px 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid rgba(73, 86, 255, 0.595);
+  margin-bottom: 10px;
+}
+
+.savol .wrap img {
+  margin-right: 12px;
+}
+
+.qollanma {
+  color: #002a44;
+}
+
+.qollanma h2 {
+  letter-spacing: -1px;
+  font-weight: bold;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 27px;
+}
+
+.qollanma .card {
+  padding: 50px;
+  text-align: center;
+  border-color: #002a444d !important;
+  width: 93%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.qollanma h4 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.qollanma img {
+  width: 130px;
+  margin: 0 auto;
+  height: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.aloqa {
+  color: #002a44;
+}
+
+.aloqa h2 {
+  letter-spacing: -1px;
+  font-weight: bold;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-size: 37px;
+}
+
+.aloqa h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.aloqa button {
+  width: 100%;
+  padding: 15px 20px;
+  text-align: center;
+  display: block;
+  background-color: #004672;
+}
+
+.aloqa .row {
+  position: relative;
+}
+
+.aloqa .row .bird {
+  position: absolute;
+  right: 10%;
+  top: -15%;
+}
+
+.aloqa .row .d-flex {
+  color: #0080cf;
+}
+
+.aloqa .row .d-flex img {
+  width: 25px;
+}
+
+.footer {
+  color: #e3e7ff;
+  background: #002a44;
+  padding: 30px 0;
+}
+
+.footer .myBtn {
+  width: 100%;
+  background-color: #004c7b;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer .col a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  margin: -7px;
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
